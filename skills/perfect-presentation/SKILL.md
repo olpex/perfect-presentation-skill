@@ -5,7 +5,7 @@ description: >
   Triggers: "зроби презентацію", "create presentation", "make slides", "pitch deck",
   any topic + "presentation". Generates Python code using python-pptx library.
   Requirements: ≥15 slides, deep research, infographics, academic design,
-  citations on every slide, speaker notes 500–2000 words per slide.
+  citations on every slide, speaker notes 800–2000 words per slide.
 version: 2.0.0
 ---
 
@@ -18,7 +18,7 @@ version: 2.0.0
 3. **Language** — match the language the user specifies; default to English
 4. **Academic & technical** — highly professional, specific, no filler content
 5. **Citations mandatory** — cite sources at the bottom of every slide AND in notes
-6. **Speaker notes 500–2000 words** — explain every bullet point in depth
+6. **Speaker notes 800–2000 words** — explain every bullet point in depth
 7. **Popular-science + empathetic tone** in notes — ideal for beginner students
 8. **Never use placeholder text** — all content must be real, researched, specific
 
@@ -335,7 +335,7 @@ def build_content_slide(prs, title, bullets, citation, notes_text,
     """
     bullets: list of strings — each becomes one bullet point
     citation: str — source shown at bottom
-    notes_text: str — 500–2000 words
+    notes_text: str — 800–2000 words
     """
     slide = prs.slides.add_slide(prs.slide_layouts[6])
     set_bg(slide, C_LIGHT_BG)
@@ -728,7 +728,7 @@ def build_references_slide(prs, references, slide_num, total_slides):
 
 | Standard | Requirement |
 |----------|-------------|
-| Length | **500–2000 words** per slide |
+| Length | **800–2000 words** per slide |
 | Tone | Popular-science + empathetic (accessible to beginners) |
 | Content | Explain every bullet point on the slide in detail |
 | Citations | Include full source citations in notes |
