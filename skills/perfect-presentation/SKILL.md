@@ -233,7 +233,7 @@ def set_bg(slide, color: RGBColor):
 
 # ── Helper: add speaker notes ────────────────────────────────
 def add_notes(slide, notes_text: str):
-    """Add speaker notes to a slide. notes_text must be 500–2000 words."""
+    """Add speaker notes to a slide. notes_text must be 800–2000 words."""
     notes_slide = slide.notes_slide
     tf = notes_slide.notes_text_frame
     tf.text = notes_text
@@ -315,7 +315,7 @@ def build_title_slide(prs, title, subtitle, presenter, institution, date):
         color=C_MUTED, align=PP_ALIGN.LEFT
     )
 
-    add_notes(slide, """[TITLE SLIDE NOTES — 500+ words]
+    add_notes(slide, """[TITLE SLIDE NOTES — 800+ words]
 Introduce yourself and your credentials relevant to this topic. Explain why this presentation matters right now and what the audience will gain. State the central question the presentation answers. Outline the structure briefly. Set the tone: this is a rigorous but accessible exploration of [TOPIC].
 
 Mention: How long will this take? Will there be Q&A? Where can they access the slides?
@@ -824,7 +824,7 @@ DESIGN
 
 SPEAKER NOTES
 □ Every slide has notes
-□ Every notes section is 500–2000 words
+□ Every notes section is 800–2000 words
 □ Every bullet on every slide is explained in notes
 □ Full citations in notes
 □ Transition phrase at end of every notes section
@@ -881,7 +881,7 @@ build_content_slide(prs,
         "7. Key Takeaways & References"
     ],
     citation="[no external source]",
-    notes_text="""[Full notes 500+ words]""",
+    notes_text="""[Full notes 800+ words]""",
     slide_num=2, total_slides=TOTAL_SLIDES
 )
 
