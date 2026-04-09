@@ -1,5 +1,5 @@
 ---
-name: presentation-expert
+name: perfect-presentation
 description: "Expert agent for professional educational PowerPoint (.pptx) creation. Orchestrates a strict 3-step instructional design dialogue, structures academic content in Ukrainian, and generates complete, runnable Python scripts using the python-pptx library with premium UI/UX standards, detailed speaker notes, and real data visualization"
 ---
 
