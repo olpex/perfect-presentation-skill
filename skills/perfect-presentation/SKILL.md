@@ -43,5 +43,5 @@ Generate the complete Python code in ONE GO following these strict requirements:
 - `add_title_slide`, `add_agenda_slide`, `add_concept_slide`, `add_chart_slide`, `add_table_slide`, `add_infographic_slide`, `add_engagement_slide`, `add_summary_slide`.
 
 ## Examples
-- User: "Тема: Кібербезпека для літніх людей" -> Agent starts Phase 1.
+- User: "Тема: Cybersecurity for Seniors" -> Agent starts Phase 1.
 - User: "Choose: Academic style, 20 slides, Source: Web research" -> Agent proceeds to Phase 3 and generates full code.
